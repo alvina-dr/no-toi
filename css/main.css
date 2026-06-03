@@ -1,0 +1,30 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+/*COLOR VARIABLES*/
+body {
+    /*FIRST SET OF COLOR*/
+    --highlight-color:rgb(128, 104, 5);
+    --light-color:#FFB7CB;
+    --dark-color: rgb(61, 9, 28);
+    --text-color: rgb(161, 161, 161);
+
+    /*SECOND SET OF COLOR*/
+    --primary-color:#E9575D;
+    --secondary-color: rgb(245, 241, 241);
+    --background-color: #FFF2B5;
+    --grid-color: rgb(225, 219, 219);
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    /* cursor: none; */
+}
