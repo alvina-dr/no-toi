@@ -2,10 +2,10 @@ var html = `
 <link rel="stylesheet" href="css/scroll-text.css">
 <div style="width: 10000000px">
     <div class="scroll-text" >
-        <h5>&nbsp;femme <span>🩷❤️</span> femme <span>❤️🩷</span> femme <span>🩷❤️</span> femme <span>❤️🩷</span> </h5>
+        <h5>&nbsp;femme <span>❤︎<span class="red">❤︎</span></span> femme <span>❤︎<span class="red">❤︎</span></span> femme <span>❤︎<span class="red">❤︎</span></span> femme <span>❤︎<span class="red">❤︎</span></span> </h5>
     </div>
     <div class="scroll-text">
-        <h5>&nbsp;femme <span>🩷❤️</span> femme <span>❤️🩷</span> femme <span>🩷❤️</span> femme <span>❤️🩷</span> </h5>
+        <h5>&nbsp;femme <span>❤︎<span class="red">❤︎</span></span> femme <span>❤︎<span class="red">❤︎</span></span> femme <span>❤︎<span class="red">❤︎</span></span> femme <span>❤︎<span class="red">❤︎</span></span> </h5>
     </div>
 </div>
 ` 

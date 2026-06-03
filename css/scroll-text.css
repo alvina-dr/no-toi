@@ -30,5 +30,11 @@
 .scroll-text span 
 {
     font-size: 3vh;
-    text-shadow: none;
+    /* text-shadow: none; */
+}
+
+.scroll-text .red 
+{
+    color: var(--heart-red-color);
+    text-shadow: -1px 0 var(--primary-color), 0 1px var(--primary-color), 1px 0 var(--primary-color), 0 -1px var(--primary-color), 0 5px var(--primary-color);
 }

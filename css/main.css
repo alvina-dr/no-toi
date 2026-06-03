@@ -9,6 +9,7 @@ body {
     /*FIRST SET OF COLOR*/
     --highlight-color:rgb(128, 104, 5);
     --light-color:#FFB7CB;
+    --heart-red-color:#f68383;
     --dark-color: rgb(61, 9, 28);
     --text-color: rgb(161, 161, 161);
 
@@ -75,8 +76,20 @@ body {
 .scroll-text-div {
     width: 40vw;
     margin: auto;
-    margin-top: 10px;
     overflow: hidden;
     white-space: nowrap;
 }
 
+.info 
+{
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.info p 
+{
+    width: fit-content;
+}
