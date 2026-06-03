@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Sarpanch:wght@900&display=swap");
 @font-face {
   font-family: 'CyGrotesk';
-  src: url("/font/CyGrotesk-WideDark.otf") format("opentype");
+  src: url("font/CyGrotesk-WideDark.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'CyGrotesk Heavy';
-  src: url("/font/CyGrotesk-WideHeavy.otf") format("opentype");
+  src: url("font/CyGrotesk-WideHeavy.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
