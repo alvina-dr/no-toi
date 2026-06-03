@@ -2,15 +2,8 @@
 #scrolling-text {
     display: flex;
     align-items: center;
-}
-
-.scroll-text-div {
-    width: 100%;
     height: 100%;
-    margin: auto;
-    position: fixed;
-    overflow: hidden;
-    white-space: nowrap;
+    margin-bottom: 5vh;
 }
 
 .scroll-text {
@@ -24,15 +17,18 @@
     100%{transform: translate(-100%, 0)}
 }
 
-.scroll-text h5 {
+.scroll-text h5 
+{
     white-space: nowrap;
     color: var(--background-color);
     color: var(--light-color);
     text-shadow: -1px 0 var(--primary-color), 0 1px var(--primary-color), 1px 0 var(--primary-color), 0 -1px var(--primary-color), 0 5px var(--primary-color);
-    font-size: 20vh;
+    font-size: 4vh;
     font-family: 'CyGrotesk Heavy';
 }
 
-.scroll-text span {
-    font-size: 10vh;
+.scroll-text span 
+{
+    font-size: 3vh;
+    text-shadow: none;
 }

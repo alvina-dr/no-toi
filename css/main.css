@@ -28,3 +28,55 @@ body {
     overflow-x: hidden;
     /* cursor: none; */
 }
+
+.dot-div 
+{
+    height: 10vh; 
+    width: 100%;
+    background-color:  var(--background-color);
+    opacity: 1;
+    background-image: radial-gradient(circle, #E9575D 0.6px, transparent 0.6px);
+    background-size: 7.5px 7.5px;
+}
+
+
+.image 
+{
+    height: 27.3vh; 
+    width: 40vw;
+    position: relative;
+    margin: auto;
+    border: #E9575D 2px solid;
+}
+
+.div-ascii
+{
+    /* background-repeat: repeat-x; */
+    background-image: url("../img/smiski-ascii.png");
+    position: absolute;
+    object-fit:scale-down;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    background-size: 5%;
+}
+
+#footer 
+{
+    position: absolute;
+    bottom: 0;
+    top: 90vh;
+    height: 10vh; 
+    width: 100%;
+}
+
+.scroll-text-div {
+    width: 40vw;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
